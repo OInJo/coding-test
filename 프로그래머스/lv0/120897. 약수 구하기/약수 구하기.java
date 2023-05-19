@@ -11,11 +11,11 @@ public class Solution {
             }
         }
         
-        int [] result=new int [divisors.size()];
+        int [] answer=new int [divisors.size()];
         for (int i = 0; i < divisors.size(); i++) {
-            result[i]=divisors.get(i);
+            answer[i]=divisors.get(i);
         }
 
-        return result;
+        return answer;
     }
 }
