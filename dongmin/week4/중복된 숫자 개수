@@ -1,0 +1,10 @@
+class Solution {
+    public int solution(int[] array, int n) {
+        int answer = 0;
+        for(int i=0;i< array.length;i++) {  //반복문을 돌려 array 배열의 값을 하나씩 나타냄
+            if(array[i]==n) 
+                answer++;   //값이 n과 같으면 answer를 1 증가
+        }
+        return answer;
+    }
+}
